@@ -21,7 +21,7 @@ def get_info():
         "current_day_of_week": current_day,
         "current_utc_time": current_time,
         "track": track,
-        "github_file_url": "https://github.com/tynist/HNG/blob/main/stage_one/main.py",
+        "github_file_url": "https://github.com/tynist/HNG/blob/main/stage_one/app.py",
         "github_repo_url": "https://github.com/tynist/HNG/tree/main/stage_one",
         "status_code": 200
     }
