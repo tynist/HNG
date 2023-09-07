@@ -26,7 +26,7 @@ def get_info():
         "status_code": 200
     }
 
-    return jsonify(response-data)
+    return jsonify(response_data)
 
 if __name__ == '__main__':
     app.run(debug=True)
