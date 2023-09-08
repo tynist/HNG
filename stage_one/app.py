@@ -13,13 +13,13 @@ def get_info():
     current_day = datetime.datetime.utcnow().strftime('%A')
 
     # Get current UTC time
-    current_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+    current_utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Create the response JSON
     response_data = {
         "slack_name": slack_name,
         "current_day": current_day,
-        "current_time": current_time,
+        "current_time": current_utc_time,
         "track": track,
         "github_file_url": "https://github.com/tynist/HNG/blob/main/stage_one/app.py",
         "github_repo_url": "https://github.com/tynist/HNG/tree/main",
