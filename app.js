@@ -14,8 +14,8 @@ app.get('/api', (req, res) => {
     current_day: currentDay,
     utc_time: utcTime,
     track: track || 'backend',
-    github_file_url: 'https://github.com/tynist/HNG/blob/main/stage_one/app.js',
-    github_repo_url: 'https://github.com/tynist/HNG/tree/main',
+    github_file_url: 'https://github.com/tynist/HNG/blob/main/app.js',
+    github_repo_url: 'https://github.com/tynist/HNG',
     status_code: 200,
   };
 
