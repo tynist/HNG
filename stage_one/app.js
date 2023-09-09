@@ -23,6 +23,4 @@ app.get('/api', (req, res) => {
 });
 
 // Start the Express server and listen on port 3000
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+app.listen(port);
