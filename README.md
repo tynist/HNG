@@ -1,17 +1,16 @@
 HNG
+---------------
+
 # Stage One: Creating and Hosting an API Endpoint
 
 Welcome to Stage One of the HNG Internship Program! In this stage, you will create and host an API endpoint using the programming language of your choice. The endpoint will accept specific GET request query parameters and return information in JSON format.
 
 ## Objective
-
 The objective of this stage is to create a publicly accessible API endpoint that meets the specified requirements.
 
+
 ## Requirements:
----------------
-
 The information required in the JSON response includes:
-
 -  Slack name
 -  Current day of the week
 -  Current UTC time (with validation of +/-2 minutes)
@@ -56,7 +55,6 @@ Before submission, ensure the following:
 -  The returned JSON matches the defined format.
 -  Validate the correctness of each data point in the JSON response.
 
+---------------
 
-Node js
-Postman 
-Render
+Node js , Postman, Render
