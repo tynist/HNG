@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000; // Get port from PORT env var, default to
 app.get('/api', (req, res) => {
     const { slack_name, track } = req.query;
     const currentDay = new Date().toLocaleDateString('en-US', { weekday: 'long' });
-    const utcTime = new Date().toISOString();
+    const utcTime = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
 
   // Create a response object
   const response = {
