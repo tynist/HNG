@@ -55,6 +55,11 @@ Before submission, ensure the following:
 -  The returned JSON matches the defined format.
 -  Validate the correctness of each data point in the JSON response.
 
+
 ---------------
 
-Node js , Postman, Render
+## Technology used:
+-  Node js
+-  Express
+-  Postman
+-  Render
