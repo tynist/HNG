@@ -1,7 +1,7 @@
 HNG
 ---------------
 
-# Stage One: Creating and Hosting an API Endpoint
+# Creating and Hosting an API Endpoint
 You will create and host an API endpoint using the programming language of your choice. The endpoint will accept specific GET request query parameters and return information in JSON format.
 
 ## Objective
