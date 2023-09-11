@@ -52,7 +52,6 @@ Before submission, ensure the following:
 -  Validate the correctness of each data point in the JSON response.
 
 ---------------
----------------
 
 ## Technology used:
 -  Node js
